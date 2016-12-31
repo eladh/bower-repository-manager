@@ -1,0 +1,29 @@
+{
+    "server": {
+        "port": 8080
+    },
+
+    "proxy": {
+        "host": "proxyServerName",
+        "port": 1234
+    },
+
+    "bower": {
+        "path": "http://bower.herokuapp.com/packages/"
+    },
+
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6389
+    },
+
+    "git": {
+        "hostname": "localhost",
+        "port": 8085,
+        "path" :"gitServerUrl"
+    },
+
+    "modules": {
+        "path": "lib/modules"
+    }
+}
